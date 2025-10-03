@@ -1,6 +1,7 @@
 "use client"
 
 import FeesTable from "./fees-table"
+import { ModeToggle } from "./mode-toggle"
 
 function Dashboard() {
   return (
@@ -24,6 +25,7 @@ function Dashboard() {
               Fee Analytics
             </h1>
           </div>
+          <ModeToggle />
         </div>
       </header>
 
