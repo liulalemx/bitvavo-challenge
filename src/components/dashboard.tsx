@@ -11,12 +11,12 @@ function Dashboard() {
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bitvavo-mark-and-logo-black-grs9fNnjyxZdlr2ILQ385ntovwRnQs.png"
+              src="@/../public/bitvavo-mark-and-logo-black.png"
               alt="Bitvavo"
               className="h-8 dark:hidden"
             />
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bitvavo-mark-and-logo-white-nzU1TZ6StKFgfCKk2tHhwViJ8cR7Tl.png"
+              src="@/../public/bitvavo-mark-and-logo-white.png"
               alt="Bitvavo"
               className="h-8 hidden dark:block"
             />
