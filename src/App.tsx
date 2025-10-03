@@ -1,9 +1,9 @@
-import FeesTable from "./components/fees-table"
+import Dashboard from "./components/dashboard"
 
 function App() {
   return (
     <>
-      <FeesTable />
+      <Dashboard />
     </>
   )
 }

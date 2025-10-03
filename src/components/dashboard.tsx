@@ -1,0 +1,37 @@
+"use client"
+
+import FeesTable from "./fees-table"
+
+function Dashboard() {
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <header className="border-b border-border bg-card">
+        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bitvavo-mark-and-logo-black-grs9fNnjyxZdlr2ILQ385ntovwRnQs.png"
+              alt="Bitvavo"
+              className="h-8 dark:hidden"
+            />
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bitvavo-mark-and-logo-white-nzU1TZ6StKFgfCKk2tHhwViJ8cR7Tl.png"
+              alt="Bitvavo"
+              className="h-8 hidden dark:block"
+            />
+            <div className="h-6 w-px bg-border" />
+            <h1 className="text-xl font-semibold text-foreground">
+              Fee Analytics
+            </h1>
+          </div>
+        </div>
+      </header>
+
+      <div className="container mx-auto px-6 py-8 space-y-8">
+        <FeesTable />
+      </div>
+    </div>
+  )
+}
+
+export default Dashboard

@@ -3,7 +3,6 @@ import rawData from "../../data/cleaned_data_large.json"
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import {
   Table,
   TableBody,
@@ -176,9 +175,6 @@ function FeesTable() {
             <div className="text-sm text-gray-500">
               Showing <strong>{sorted.length}</strong>
             </div>
-            <Button variant="ghost" size="sm">
-              Export CSV
-            </Button>
           </div>
         </CardHeader>
         <CardContent className="p-0">
